@@ -1,0 +1,81 @@
+nav {
+    height: auto;
+    background-color: lightslategray;
+    position: relative;
+    border-bottom: solid #696969;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 8%;
+    padding: 15px;
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: lightskyblue;
+    padding: 20px;
+    border-right: solid #696969;
+}
+
+.penguin-name {
+    height: auto; 
+    text-align: center;
+    border-bottom: solid;
+}
+
+.penguin-name img {
+    width: 60%;
+    height: auto; 
+    border-radius: 50%;
+}
+
+.personal-info {
+    display: inline-block;
+}
+
+.left {
+    width: 30%;
+    height: auto;
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 30px;
+}
+
+.main-content {
+    width: 80%;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+.main-content h1, .main-content p {
+    margin: 20px 0;
+}
+
+.penguin-description h3 {
+    margin-top: 30px;
+}
+
+.tuxedoSam-images img {
+    width: 30%;
+    margin-right: 2%;
+    height: auto;
+}
+
+.tuxedoSam-images img:last-child {
+    margin-right: 0;
+}
